@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Nginx-Example</title>
+        <meta charset="UTF-8"/>
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+        <meta http-equiv="default-style" content="Nginx-Example Styles"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta name="application-name" content="Nginx-Example"/>
+        <meta name="author" content="Drew Hainer"/>
+        <meta name="description" content="A webpage to provide an example for the nginx web server"/> 
+        <meta name="keywords" content="nginx, example, web, server, webserver"/>
+        <link title="Nginx-Example Styles" rel="stylesheet" type="text/css" href="nginx-example.css"/>
+    </head>
+    <body>
+        <header>
+            <h1 class="main-heading">Nginx Example</h1>
+        </header>
+
+        <form id="example-form" name="example-form" target="_self" accept-charset="UTF-8" autocomplete="off" autofocus="off">
+            <input id="example-input" name="example-input" form="example-form" type="text" value="" placeholder="Enter Anything" autocomplete="off" autofocus="off"/>
+            <button id="submit-button" name="submit-button" form="example-form" type="button" autofocus="off" onclick="submit_handler(); return false">Submit</button>
+        </form>
+
+        <script>
+            submit_handler = () => {
+                message = document.getElementById("example-input").value
+                alert("You entered: " + message)
+            };
+        </script>
+    </body>
+</html>
