@@ -37,9 +37,9 @@
     Checking the Server Status:
     sudo service nginx status
 
-## Certificate & Key Generation Commands
+## Private Key & Certificate Generation Commands
 
-    Generate Certificate & Private Key:
+    Generate Private Key (2048 Bit Key Length) & Certificate:
     sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout domainName.key -out domainName.crt
 
     Generate PEM File Certificate (For Secure Email Messaging):
