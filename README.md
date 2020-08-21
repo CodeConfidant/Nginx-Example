@@ -2,7 +2,7 @@
 
     A tutorial for hosting static websites with Ubuntu & Nginx.
 
-[![Static Website Hosting with Nginx](logo.png)](https://www.youtube.com/watch?v=OHMWGj6D01U)
+[![Static Website Hosting with Nginx](logo.png)](https://www.youtube.com/watch?v=FCjrnAP_zfk)
 
 ## Installing/Uninstalling Nginx
 
