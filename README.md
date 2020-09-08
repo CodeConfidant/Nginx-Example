@@ -18,6 +18,9 @@
     /var/www
 
     Server Configuration File Directory:
+    /etc/nginx/sites-available
+    
+    Server Configuration Symbolic Link Directory:
     /etc/nginx/sites-enabled
 
     TLS/SSL Certificate & Key Directory:
