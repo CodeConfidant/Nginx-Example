@@ -37,9 +37,15 @@
     Checking the Server Status:
     sudo service nginx status
 
+    Disable the Server at Boot-Up:
+    sudo systemctl disable nginx
+
+    Enable the Server at Boot-Up:
+    sudo systemctl enable nginx
+
 ## Private Key & Certificate Generation Commands
 
-    Generate Private Key (2048 Bit Key Length) & Certificate:
+    Generate Self-Signed Private Key (2048 Bit Key Length) & Certificate:
     sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout domainName.key -out domainName.crt
 
     Generate PEM File Certificate (For Secure Email Messaging):
