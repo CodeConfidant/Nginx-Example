@@ -1,3 +1,3 @@
 #!/bin/bash
 
-service nginx status
+systemctl status nginx

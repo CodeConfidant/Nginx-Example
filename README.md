@@ -29,15 +29,22 @@
 ## Administrative Commands
 
     Starting the Server:
+    sudo systemctl start nginx
     sudo service nginx start
 
     Stopping the Server:
+    sudo systemctl stop nginx
     sudo service nginx stop
 
     Restarting the Server:
+    sudo systemctl restart nginx
     sudo service nginx restart
 
+    Reloading the Server:
+    sudo systemctl reload nginx
+
     Checking the Server Status:
+    sudo systemctl status nginx
     sudo service nginx status
 
     Disable the Server at Boot-Up:
