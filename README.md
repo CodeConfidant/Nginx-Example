@@ -2,7 +2,7 @@
 
     Tutorial for setting up a Nginx web server with HTTP over TLS (HTTPS) on Ubuntu.
 
-[![Nginx Tutorial with HTTPS on Ubuntu](logo.png)](https://www.youtube.com/watch?v=FCjrnAP_zfk)
+[![Nginx Tutorial with HTTPS on Ubuntu](logo.png)]
 
 ## Installing/Uninstalling Nginx
 
